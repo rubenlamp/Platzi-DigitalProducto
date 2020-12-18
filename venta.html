@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/normalize.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/mobile.css">
+  <link rel="stylesheet" href="/CSS/grid.css">
+  <link rel="stylesheet" href="/CSS/animations.css">
+  <title>Brand</title>
+</head>
+<body>
+  <!-- _____Empieza el navbar_____ -->
+  <nav class="fefe">
+    <a class="nav-logo" href="index.html">
+      <img src="images/logo.png" alt="">
+    </a>
+    <ul class="nav-options">
+      <li>
+        <a href="faqs.html" class="option faqs">Faqs</a>
+      </li>
+      <li>
+        <a href="product.html" class="option product">Producto y descripción</a>
+      </li>
+
+    </ul>
+  </nav>
+  <!-- _____Empieza el formulario de venta______ -->
+  <div class="form-container">
+    <div class="form row">
+      <div class="form col-4">
+        <div class="modulo-pago">
+          <figure class="modulo-pago-image">
+            <img src="images/box2.png" alt="">
+          </figure>
+          <h3>
+            Producto 1
+          </h3>
+          <p>
+            Miles de productos hay en el mercado, pero nada como una caja de gatitos.
+          </p>
+        </div>
+      </div>
+      <div class="form col-8">
+        <div class="modulo-pago">
+          <form class="form-pago" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LD8SNN2D7RVWS" method="post">
+            <label for="name">Nombre </label>
+            <input type="text" name="firts_name" value="John" placeholder="" id="" class="data"/>
+            <label for="email">Email </label>
+            <input type="text" name="email" value="jdoe@zyzzyu.com" placeholder="email pliss"  class="data"/>
+            <label for="phone">Phone number </label>
+            <input type="text" name="night_phone_a" value="610" placeholder=" class="data"/>
+
+            <input type="submit" name="submit" value="Comprar ahora" class="main-botton">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"> </script>
+</body>
+</html>

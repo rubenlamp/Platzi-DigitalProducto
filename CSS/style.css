@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* _____________Variables_________ */
+:root
+{
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black-color: #313337;
+
+  --normal:16px;
+  --space: 10px;
+
+  --box: 0px 1px var(--space) #d7d5cf;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+img,
+section,
+figure
+{
+  margin: 0 auto;
+  padding: 0;
+}
+figure .nav-logo
+{
+  margin: 0;
+}
+label
+{
+  display: block;
+  margin-top: 20px;
+}
+nav
+{
+  padding: var(--space);
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+nav ul
+{
+  display: flex;
+}
+nav li
+{
+  padding-left: 20px;
+  list-style: none;
+}
+nav a
+{
+  text-decoration: none;
+  color: var(--black-color);
+}
+nav a:hover
+{
+  color: var(--white-color);
+}
+/* _________________ */
+.main-section
+{
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.products
+{
+  margin-top: 100px;
+  height: 300px;
+  padding: 20px 15%;
+  display: flex;
+  justify-content: center;
+
+  background-position: center top;
+  background-size: cover;
+  background-image: url(../images/curve.png);
+}
+.product
+{
+  max-width: 28vw;
+  margin-top: -220px;
+
+}
+.image-container
+{
+  text-align: center;
+}
+.content
+{
+  height: auto;
+  padding: var(--space);
+  margin: 0 10px;
+
+  border-radius: 7px;
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+}
+.main-botton
+{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: var(--white-color);
+  background-color: var(--green-color);
+  cursor: pointer;
+}
+.main-botton:hover
+{
+  background-color: #678255;
+}
+/* ______Caracteristicas_________ */
+.caracteristicsWrapper
+{
+  max-width: 1440px;
+  padding: 0 10%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.caracteristic
+{
+  width: 20%;
+  margin: 10% 1%;
+}
+.caracteristic figure
+{
+  padding: 0 20%;
+  text-align: center;
+}
+.caracteristic figure img
+{
+  object-fit: cover;
+  width: 100%;
+}
+.caracteristic h3
+{
+  text-align: center;
+}
+
+/* ______Caracteristicas_________ */
+.mentions-title
+{
+  margin: 40px 0;
+  text-align: center;
+}
+.mentions
+{
+  padding: 0 5%;
+  margin: 5% auto;
+  display: flex;
+}
+
+.mentionWrapper
+{
+  width: 24%;
+  margin: 0 1%;
+  border-radius: 5px;
+  box-shadow: var(--box);
+  overflow: hidden;
+}
+.mentionWrapper figure img
+{
+  object-fit: cover;
+  width: 100%;
+}
+.mention-details
+{
+  padding: 0 var(--space);
+}
+.mention-user
+{
+  margin: 0;
+}
+.mention-paragraph
+{
+  margin-top: 5px;
+}
+/* ______HTML venta_________ */
+.form-container
+{
+  max-width: 1440;
+  width: 80%;
+  margin: 0 auto;
+}
+.form .col-4,
+.form .col-8
+{
+  margin: var(--space);
+}
+.modulo-pago
+{
+  color: var(--black-color);
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: 20px;
+
+}
+.modulo-pago-image
+{
+  max-width: 150px;
+  margin: 0 auto;
+  width: 100%;
+}
+.form-pago .data
+{
+  width: 100%;
+  padding: var(--space) 0;
+  border: 1px solid var(--black-color);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.modulo-pago .main-botton
+{
+  margin-top: 10px;
+}

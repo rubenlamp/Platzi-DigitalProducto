@@ -1,0 +1,23 @@
+body
+{
+  height: 100vh;
+  background-color: var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a
+{
+  text-decoration: none;
+  color: var(--green-color);
+}
+a:hover
+{
+  color: rgba( 255,255,255, .3);
+}
+.paypaContainer
+{
+
+}
